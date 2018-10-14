@@ -6,12 +6,11 @@ const newInnerHTML = innerHTML.replace(urlRegex, function(str) {
 
   const [match, proto, name, claimId] = arguments;
 
-  let href = `https://open.lbry.io/${name}`;
   if (claimId) {
     href += claimId
   }
 
-  return `<a href="${href}">${str}</a>`;
+  return `<a href="${match}">${str}</a>`;
 
 });
 

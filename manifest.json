@@ -1,16 +1,13 @@
 {
   "name": "LBRY Redirect",
   "version": "1.0",
-  "description": "Finds LBRY URLs on a page and adds a link tag that redirects to open.lbry.io",
+  "description": "Finds LBRY URLs on a page and adds a link tag that opens the LBRY desktop app",
   "manifest_version": 2,
-  "permissions": [
-    "activeTab"
-  ],
   "content_scripts": [
-  {
-    "matches": ["<all_urls>"],
-    "run_at": "document_end",
-    "js": ["content.js"]
-  }
-]
+    {
+      "matches": ["<all_urls>"],
+      "run_at": "document_end",
+      "js": ["content.js"]
+    }
+  ]
 }
