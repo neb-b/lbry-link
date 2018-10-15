@@ -1,4 +1,4 @@
-# LBRY Redirect
+# LBRY Link
 
 A chrome extension that wraps valid LBRY URLs with an `<a>` tag that opens the file in the [LBRY desktop app](https://github.com/lbryio/lbry-desktop).
 

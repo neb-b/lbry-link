@@ -1,6 +1,6 @@
 {
-  "name": "LBRY Redirect",
-  "version": "1.0",
+  "name": "LBRY Link",
+  "version": "0.0.1",
   "description": "Finds LBRY URLs on a page and adds a link tag that opens the LBRY desktop app",
   "manifest_version": 2,
   "content_scripts": [
